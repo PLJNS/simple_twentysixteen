@@ -58,11 +58,6 @@
 	</div><!-- .site-inner -->
 </div><!-- .site -->
 
-<script type="text/x-mathjax-config;">    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
-	messageStyle: "none"
-    });</script>
-
 <?php wp_footer(); ?>
 </body>
 </html>
