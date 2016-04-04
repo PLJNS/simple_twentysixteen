@@ -1,0 +1,286 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+.site {
+margin: 0px;
+}
+ 
+.page-header {
+border-top:0;
+padding-top:0;
+}
+
+.entry-format {
+display: none !important;
+}
+
+blockquote {
+border-left-width: 1px;
+margin-left: 0;
+}
+
+blockquote strong
+{
+	font-weight: 700;
+}
+
+.entry-content ul, .entry-content ol {
+margin-left: 1.473684211em;
+}
+
+.entry-content blockquote:not(.alignleft):not(.alignright), .entry-summary blockquote, .comment-content blockquote {
+margin-left:0;
+}
+
+body:not(.custom-background-image):before,
+	body:not(.custom-background-image):after {
+		height: 0px;
+	}
+/*
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('fonts/sans/cmunss.eot');
+	src: url('fonts/sans/cmunss.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/sans/cmunss.woff') format('woff'),
+		 url('fonts/sans/cmunss.ttf') format('truetype'),
+		 url('fonts/sans/cmunss.svg#cmunss') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('fonts/sans/cmunsx.eot');
+	src: url('fonts/sans/cmunsx.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/sans/cmunsx.woff') format('woff'),
+		 url('fonts/sans/cmunsx.ttf') format('truetype'),
+		 url('fonts/sans/cmunsx.svg#cmunsx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('fonts/sans/cmunsi.eot');
+	src: url('fonts/sans/cmunsi.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/sans/cmunsi.woff') format('woff'),
+		 url('fonts/sans/cmunsi.ttf') format('truetype'),
+		 url('fonts/sans/cmunsi.svg#cmunsi') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('fonts/sans/cmunso.eot');
+	src: url('fonts/sans/cmunso.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/sans/cmunso.woff') format('woff'),
+		 url('fonts/sans/cmunso.ttf') format('truetype'),
+		 url('fonts/sans/cmunso.svg#cmunso') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/serif/cmunrm.eot');
+	src: url('fonts/serif/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/serif/cmunrm.woff') format('woff'),
+		 url('fonts/serif/cmunrm.ttf') format('truetype'),
+		 url('fonts/serif/cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/serif/cmunbx.eot');
+	src: url('fonts/serif/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/serif/cmunbx.woff') format('woff'),
+		 url('fonts/serif/cmunbx.ttf') format('truetype'),
+		 url('fonts/serif/cmunbx.svg#cmunbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/serif/cmunti.eot');
+	src: url('fonts/serif/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/serif/cmunti.woff') format('woff'),
+		 url('fonts/serif/cmunti.ttf') format('truetype'),
+		 url('fonts/serif/cmunti.svg#cmunti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('fonts/serif/cmunbi.eot');
+	src: url('fonts/serif/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/serif/cmunbi.woff') format('woff'),
+		 url('fonts/serif/cmunbi.ttf') format('truetype'),
+		 url('fonts/serif/cmunbi.svg#cmunbi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('fonts/mono/cmuntt.eot');
+	src: url('fonts/mono/cmuntt.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/mono/cmuntt.woff') format('woff'),
+		 url('fonts/mono/cmuntt.ttf') format('truetype'),
+		 url('fonts/mono/cmuntt.svg#cmuntt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('fonts/mono/cmuntb.eot');
+	src: url('fonts/mono/cmuntb.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/mono/cmuntb.woff') format('woff'),
+		 url('fonts/mono/cmuntb.ttf') format('truetype'),
+		 url('fonts/mono/cmuntb.svg#cmuntb') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('fonts/mono/cmunit.eot');
+	src: url('fonts/mono/cmunit.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/mono/cmunit.woff') format('woff'),
+		 url('fonts/mono/cmunit.ttf') format('truetype'),
+		 url('fonts/mono/cmunit.svg#cmunit') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('fonts/mono/cmuntx.eot');
+	src: url('fonts/mono/cmuntx.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/mono/cmuntx.woff') format('woff'),
+		 url('fonts/mono/cmuntx.ttf') format('truetype'),
+		 url('fonts/mono/cmuntx.svg#cmuntx') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+*/
+
+
+
+code, 
+pre{
+overflow: auto;
+word-wrap: normal;
+white-space: pre;
+-webkit-overflow-scrolling: touch;
+font-family: "Computer Modern Typewriter";
+}
+
+pre {
+padding: 8px 8px 8px 8px;
+border: 0;
+}
+
+span,h1, h2, h3, h4, h5, h6,
+button,
+input,
+select,
+textarea,
+.entry-title,
+.site-title,
+.widget .widget-title,
+.post-navigation .post-title,
+.page-title,
+.comments-title, .comment-reply-title,
+.comment-metadata, .pingback .edit-link,
+.no-comments,
+.tagcloud a,
+.widget a
+{
+font-family: Helvetica, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body,footer,nav, html, p
+{
+font-family: Georgia, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+::-webkit-input-placeholder {
+font-family: Helvetica, -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+blockquote {
+font-size: 1rem;
+line-height: 1.75;
+font-style: normal;
+}
+
+code {background-color: transparent;}
+
+#header {
+	background-color:transparent;
+	background-image:none;
+	border-bottom:1px solid #E5E5E5;
+}
+
+.site-footer .site-title:after {
+	content: none; 
+}
+
+.base-widget {
+	margin-bottom: 3.5em;
+}
+
+.site-header {padding: 0.625em 7.6923%;}
+
+	.site-title {
+		font-size: 23px;
+	}
+
+@media screen and (min-width: 61.5625em) {
+	.site-header {
+		padding: 1.25em 4.5455%;
+	}
+
+
+	.site-branding,
+	.site-header-menu,
+	.header-image {
+		margin-top: 0em;
+	}
+
+}
